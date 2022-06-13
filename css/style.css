@@ -210,3 +210,69 @@ footer{
     color: white;
     background-color: black;
 }
+
+
+
+/* menu */
+
+
+.header-menu-bg {
+    background-image: url("../images/menu/menu-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.65;
+}
+
+.menu-se{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 30%;
+}
+
+.menu-se-1{
+    text-align: center;
+}
+
+
+.menu-se-2{
+    font-size: 0.4em;
+}
+
+.menus{
+    width: 100%;
+    display: flex;
+    margin: 5% 10% 0%;
+    background-color: aqua;
+    font-size: 0.5em;
+    flex-wrap: wrap;
+}
+
+.menus1 img{
+    width: 200px;
+}
+
+.menus2 img{
+    width: 20%;
+}
+
+.menus3 img{
+    width: 20%;
+}
+
+.menus4 img{
+    width: 30%;
+}
+
+.menus5 img{
+    width: 30%;
+}
+.menus6 img{
+    width: 30%;
+}
+.menus7 img{
+    width: 20%;
+}
+
