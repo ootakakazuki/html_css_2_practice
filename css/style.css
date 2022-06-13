@@ -27,6 +27,15 @@ body{
     height: 100vh;
   }
 
+.header-news-bg {
+    background-image: url("../images/news-bg.jpg");
+    background-position: top;  /* topにしたら同じになった */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+  }
+
+
 .logo-and-navi img{
     width: 80%;
 /*
@@ -85,10 +94,114 @@ ul li {
 
 .pra{
     display: flex;
-    color: tomato;
+    padding: 5% 10% 0;
+    height: auto;
+    gap: 10px;
+}
+
+.pra2{
+    /*
+    background-color: aqua;
+    */
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pra2-1{
+    display: flex;
+    gap: 10px 10px;
+}
+
+.pra2-1-1{
+    background-color: skyblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: white;
+
 }
 
 
+.pra2-1-1_moji{
+    position: relative;
+    top: 10%;
+    left: 0%;
+    gap: 13px;
+}
+
+.pra2-1-1_moji1{
+    position: relative;
+    font-size: 0.8em;
+    top: 50%;
+    left: 20%
+}
+
+.pra2-1-1_moji2{
+    position: relative;
+    font-size: 0.5em;
+    top: 40%;
+    left: 10%;
+    padding: 20px;
+}
+
+
+article{
+    font-size: 0.4em;
+}
+
+.pra2-1-2{
+    font-size: 0.6em;
+}
+
+.pra2-1-2-1{
+    font-size: 0.6em;
+}
+
+
+.pra2-2 img{
+    width: 100%;
+}
+
+.pra3{
+    /*
+    background-color: yellow;
+    */
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.pra3-1-1{
+    font-size: 0.5em;
+    padding-bottom: 0px;
+    border-bottom: 2px solid cyan;
+    width: 100%;
+}
+
+.pra3-1-2{
+    font-size: 0.4em;
+    padding-bottom: 0;
+    border-bottom: 1px solid wheat;
+    width: 100%;
+}
+
+
+.pra3-2{
+    gap: 20px;
+}
+
+.pra3-2-1{
+    font-size: 0.5em;
+    border-bottom: 3px solid cyan;
+}
+
+.pra3-2-2{
+    font-size: 0.4em;
+}
 
 footer{
     width: 100%;
