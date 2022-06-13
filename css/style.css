@@ -1,5 +1,13 @@
 body{
     font-family: 'Philosopher', sans-serif;
+    font-size: 32px;
+}
+
+@media screen and (max-width: 480px) {
+    /* 横幅が480px以下になったら適用される */
+    body{
+        font-size: 20px;
+    }
 }
 
 .logo-and-navi{
@@ -7,6 +15,8 @@ body{
     display: flex;
 */
     position: relative;
+    width: 100%;
+    height: auto;
 }
 
 .header-bg {
@@ -18,8 +28,7 @@ body{
   }
 
 .logo-and-navi img{
-    width: 50%;
-    background-color: bisque;
+    width: 80%;
 /*
     position: absolute;
     top: 0;
@@ -27,13 +36,58 @@ body{
 */
 }
 
+.logos{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+
+}
+
+
 ul li {
+/*
     background-color: aqua;
-    font-size: 20px;
+*/
+    display: flex;
+
+    font-size: 40%;
     list-style: none;
     float: left;
-    padding: 0%;
+    padding: 20px ;
 }
+
+.sentence{
+    font-size: 16px;
+    position: absolute;
+    top:30%;
+    left: 28%;
+    padding: 2%;
+    background-color: red;
+}
+
+.f-s{
+    font-size: 3.1em;
+}
+
+.s-s{
+    font-size: 0.7em;
+}
+
+.btn-menu{
+    position: relative;
+    top: 0.75em;
+    left: 9em;
+    background-color: aquamarine;
+    padding: 1em;
+}
+
+
+.pra{
+    display: flex;
+    color: tomato;
+}
+
 
 
 footer{
