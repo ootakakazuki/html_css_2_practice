@@ -1,6 +1,12 @@
+html{
+    font-size: 100%;
+}
+
 body{
     font-family: 'Philosopher', sans-serif;
+/*
     font-size: 32px;
+*/
 }
 
 
@@ -55,17 +61,16 @@ header, nav, article, aside, section, footer {
 }
 
 nav{
-    position: relative;
-    left: 10%;
     padding: 1% 0 0;
 }
 
 nav ul{
     display: flex;
     gap: 10% ;
-    font-size: 0.8em;
+    font-size: 2em;
     position: relative;
     left: 10%;
+    padding: 0 0 0 20%;
 }
 
 /*
@@ -80,9 +85,8 @@ li a{
 }
 
 a:hover, li:hover{
-    color: aquamarine;
+    color: #0bd;
 }
-
 
 ul li {
 /*
@@ -96,11 +100,13 @@ ul li {
 }
 
 .sentence{
-    font-size: 16px;
     position: absolute;
+
     top:30%;
+/*
     left: 20%;
-    padding: 2%;
+*/
+    padding: 2% 20%;
 }
 
 footer{
@@ -109,7 +115,6 @@ footer{
     padding: 20px 20px;
     color: white;
     background-color: black;
-    font-size: 0.6em;
 }
 
 
@@ -120,7 +125,7 @@ footer{
 }
 
 .s-s{
-    font-size: 0.7em;
+    font-size: 1em;
 }
 
 .btn-menu{
@@ -176,14 +181,14 @@ footer{
 
 .pra2-1-1_moji1{
     position: relative;
-    font-size: 0.8em;
+    font-size: 1.8em;
     top: 50%;
     left: 20%
 }
 
 .pra2-1-1_moji2{
     position: relative;
-    font-size: 0.5em;
+    font-size: 1.3em;
     top: 40%;
     left: 10%;
     padding: 20px;
@@ -191,12 +196,9 @@ footer{
 
 
 article{
-    font-size: 0.4em;
+    font-size: 0.8em;
 }
 
-.pra2-1-2, .pra2-1-2-1{
-    font-size: 0.6em;
-}
 
 .pra2-2 img{
     width: 100%;
@@ -214,16 +216,15 @@ article{
     left: 5%;
 }
 
-
 .pra3-1-1{
-    font-size: 0.5em;
+    font-size: 1.1em;
     padding-bottom: 0px;
     border-bottom: 2px solid cyan;
     width: 100%;
 }
 
 .pra3-1-2{
-    font-size: 0.5em;
+    font-size: 0.8em;
     padding-bottom: 0;
     border-bottom: 1px solid wheat;
     width: 100%;
@@ -231,16 +232,16 @@ article{
 
 
 .pra3-2{
-    gap: 20px;
+    gap: 10px;
 }
 
 .pra3-2-1{
-    font-size: 0.5em;
+    font-size: 1.1em;
     border-bottom: 3px solid cyan;
 }
 
 .pra3-2-2{
-    font-size: 0.4em;
+    font-size: 0.8em;
 }
 
 
@@ -265,10 +266,11 @@ article{
 
 .menu-se-1{
     text-align: center;
+    font-size: 1.5em;
 }
 
 .menu-se-2{
-    font-size: 0.4em;
+    font-size: 0.8em;
 }
 
 
@@ -317,7 +319,7 @@ article{
 */
     padding: 3% 3% 0%;
 
-    gap: 10%  ;
+    gap: 5%  ;
 
     width: 100%;
 }
@@ -327,16 +329,15 @@ article{
     height: 300px;
 }
 
-
-.container1-1 p span{
+.container1-1 span{
     font-size: 1.4em;
     border-bottom: 3px solid aquamarine;
-    padding-bottom: 30px 0 0;
+    padding-bottom: 3px 0 0;
     width: 100%;
 }
 
 .container1-1 p{
-    font-size: 0.5em;
+    font-size: 1em;
     padding: 1%;
 }
 
@@ -376,7 +377,7 @@ article{
 .sns-title{
     border-bottom: 2px solid aqua;
     width: 100%;
-    font-size: 2em;
+    font-size: 1.7em;
     margin: 10px;
 }
 
@@ -385,7 +386,6 @@ article{
 .container-con2{
     display: flex;
     justify-content: center;
-    font-size: 0.5em;
 
     padding: 0 5%;
     gap: 3%;
@@ -469,18 +469,20 @@ article{
 
     /******************共通 ******************/
 
-    body{
-        font-size: 28px;
+    html{
+        font-size: 100%;
     }
+
 
 
     .logos{
         display: flex;
         flex-direction: column;
+        gap: 30px;
     }
 
     .logo-and-navi img{
-        width: 100px;
+        width: 200px;
         position: absolute;
         top: 0%;
         left: 50%;
@@ -538,6 +540,13 @@ article{
     /********************  contact  ***********************/
     .header-contact-bg{
         position: relative;
+    }
+
+    .contact-container{
+
+        position: relative;
+        top: 50px;
+
     }
 
     .container-con1{
