@@ -18,6 +18,15 @@ header, nav, article, aside, section, footer {
     height: auto;
 }
 
+.logo-and-navi img{
+    width: 200px;
+    /*
+    position: absolute;
+    top: 0;
+    left: 0;
+*/
+}
+
 
 .header-bg {
     background-image: url("../images/main-bg.jpg");
@@ -35,18 +44,11 @@ header, nav, article, aside, section, footer {
     height: 30vh;
 }
 
-.logo-and-navi img{
-    width: 200px;
-    /*
-    position: absolute;
-    top: 0;
-    left: 0;
-*/
-}
+
 
 .logos{
     position: absolute;
-    top: 5%;
+    top: 1%;
     left: 10%;
     display: flex;
     gap: 0%;
@@ -61,6 +63,7 @@ nav{
 nav ul{
     display: flex;
     gap: 10% ;
+    font-size: 0.8em;
     position: relative;
     left: 10%;
 }
@@ -96,7 +99,7 @@ ul li {
     font-size: 16px;
     position: absolute;
     top:30%;
-    left: 28%;
+    left: 20%;
     padding: 2%;
 }
 
@@ -123,7 +126,9 @@ footer{
 .btn-menu{
     position: relative;
     top: 0.75em;
-    left: 9em;
+    
+    left: 19%;
+    
     background-color: aquamarine;
     padding: 1em;
     border-radius: 5px;
@@ -250,10 +255,11 @@ article{
     opacity: 0.65;
 }
 
+/*** Menu 脳に刺激をあたえる...　***/
 .menu-se{
     position: absolute;
-    top: 40%;
-    left: 40%;
+    top: 30%;
+    left: 35%;
     width: 30%;
 }
 
@@ -294,35 +300,63 @@ article{
 
 /******************** contact *************************/
 
+/*
+.contact-container{
+    position: relative;
+    left: 0%;
+}
+*/
+
+
+/* 住所と地図*/
 .container-con1{
     justify-content: center;
     display: flex;
-    font-size: 0.5em;
+/*
+    font-size: 0.4em;
+*/
+    padding: 3% 3% 0%;
 
-    padding: 3% 3% ;
-    gap: 5%;
-    width: 90%;
-}
+    gap: 10%  ;
 
-
-.container-con2{
-    display: flex;
-    justify-content: center;
-    font-size: 0.5em;
-
-    padding: 0 10% 0;
-    gap: 3%;
     width: 100%;
-    background-color: whitesmoke;
 }
 
-.container-con1-1 span{
-    font-size: 2em;
+.container1-2 iframe{
+    width: 100%;
+    height: 300px;
+}
+
+
+.container1-1 p span{
+    font-size: 1.4em;
+    border-bottom: 3px solid aquamarine;
+    padding-bottom: 30px 0 0;
+    width: 100%;
+}
+
+.container1-1 p{
+    font-size: 0.5em;
+    padding: 1%;
+}
+
+
+
+/*
+.container-con1-1 p span{
+    font-size: 3em;
+}
+*/
+
+
+.container-con1-1{
+    justify-content: center;
 }
 
 
 .container1-2{
-    width: 100%;
+    min-width: 400px;
+    min-height: 400px;
 }
 
 
@@ -348,6 +382,24 @@ article{
 
 
 
+.container-con2{
+    display: flex;
+    justify-content: center;
+    font-size: 0.5em;
+
+    padding: 0 5% 0;
+    gap: 3%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+
+
+.container2-1{
+    min-width: 250px;
+}
+
+
 .container2-2 a{
     /*
     width: 320px;
@@ -364,6 +416,7 @@ article{
 
 .container2-3{
     width: 100%;
+    min-width: 200px;
 }
 
 
@@ -379,18 +432,18 @@ article{
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: screen;
-    height: 70vh;
+    height: 80vh;
     opacity: 0.5;
 }
 
 .header-contact-bg-con{
-    padding: 10% 10% 0;
-    font-size: 2em;
+    padding: 8% 10% 0;
+    font-size: 1.4em;
 }
 
 .header-contact-bg p{
     padding: 1% 10%;
-    font-size: 0.5em;
+    font-size: 0.4em;
 }
 
 .header-contact-bg button{
@@ -404,7 +457,9 @@ article{
     background-color: aliceblue;
     margin: 0 10%;
     border-radius: 5px ;
+
 }
+
 
 
 
@@ -424,14 +479,18 @@ article{
         flex-direction: column;
     }
 
-    nav ul {
-        justify-content: center;
-        display: flex;
-        gap: 30px
+    .logo-and-navi img{
+        width: 100px;
+        position: absolute;
+        top: 0%;
+        left: 50%;
     }
 
-    .logo-and-navi{
-        margin-left: 10%;
+    nav ul {
+        display: flex;
+        gap: 10%;
+        padding: 7% 0 0;
+        top: 30%;
 
     }
 
@@ -443,6 +502,11 @@ article{
 
     /***************  menu  *********************/
 
+
+    .menu-se{
+        position: absolute;
+        top: 15%;
+    }
     
     .header-menu-bg{
         height: 50vh;
@@ -472,10 +536,23 @@ article{
     }
 
     /********************  contact  ***********************/
+    .header-contact-bg{
+        position: relative;
+    }
+
     .container-con1{
         display: flex;
         flex-direction: column;
     }
+
+    
+    .container1-2{
+        
+        min-width: 400px;
+    }
+    
+
+
 
     .container-con2{
         display: flex;
@@ -483,11 +560,17 @@ article{
     }
 
     .container2-1{
-        width: 100px;
-        border: 1px solid;
+        width: 100%;
     }
+/*    }
     ._3hft{
         width: 1000px;
     }
+    */
+
+    .container1-1 p span{
+        width: 100%;
+    }
+
 
 }
